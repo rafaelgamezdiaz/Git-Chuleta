@@ -104,6 +104,18 @@ This command creates a new branch as a clone of the actual branch
     git push
 ````
 
+If the branch does not exist in remote already, then use this command:
 
+````
+    git push --set-upstream origin my_branch
+````
+
+### Update the information of remote branch in your local.
+
+This command does not make merge or changes your local branch. Obly updates information of remote branches.
+
+````
+    git fetch
+````
 
 
